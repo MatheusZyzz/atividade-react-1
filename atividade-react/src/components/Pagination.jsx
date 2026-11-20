@@ -1,3 +1,4 @@
+import React from "react";
 export default function Pagination({ atual, total, onChange }) {
   return <section className="card"><h2>2. Paginação</h2><p>Você está na página {atual} de {total}.</p>
     <nav aria-label="Navegação de páginas" className="botoes">
