@@ -1,4 +1,4 @@
-import { useCallback, useState } from 'react';
+import React, { useCallback, useState } from 'react';
 import Accordion from './components/Accordion.jsx';
 import Pagination from './components/Pagination.jsx';
 import ProgressBar from './components/ProgressBar.jsx';
